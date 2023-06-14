@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--Manos a la obra...-->
+    
+    <style>
+    *{ margin:0px;
+    padding:0px;
+    }
+   
+    /*Comentarios en CSS*/
+    /*Divs*/
+    
+    .container {
+    	background-color:#F1DEDB;
+        display: grid;
+        grid-template-columns: 50% 50%
+    }
+    
+    div {
+    	border: 2px solid #DDA69E;
+        padding: 14px;
+    }
+    
+    .container div {
+    	background-color:#FDE8E6   
+    }
+    
+    /*Nota*/
+    
+    @media screen and (max-width: 480px) {
+    
+        *{ margin:0px;
+    padding:0px;
+    }
+   
+    /*Comentarios en CSS*/
+    /*Divs*/
+    
+    .container {
+    	background-color:#F1DEDB;
+        display: block;
+    }
+    
+    div {
+    	border: 2px solid #DDA69E;
+        padding: 14px;
+    }
+    
+    .container div {
+    	background-color:#FDE8E6   
+    }
+    
+    
+    
+    }
+    
+    </style>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    
+    <div class="a">
+    	<p>Primero</p>
+    </div>
+    
+    <div class="b">
+    	Segundo
+    </div>
+    
+    <div class="c">
+    	tercero
+    </div>
+    	
+    <div class="d">
+    	Cuarto
+    </div>
+    	
+    </div>
+</body>
+</html>
